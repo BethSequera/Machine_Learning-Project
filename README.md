@@ -54,7 +54,7 @@ In the Neural Network phase, we employed TensorFlow and Keras to construct a pow
   - Years
  
 ### Compiling, Training and Evaluating the Model
- - The model consit of one hidden layer with total for with 5 nodes run for 100 epochs was used to create the model and activation method *relu* . After compling the model it accuracy score 95%.
+ - The model consists of one hidden layer with total of 5 nodes and the model and activation method is *relu* . After compling the model with 100 epochs, the accuracy score was 95%.
  - The model at the beginning gave 100% accuracy but after using the *Standard Scaling* method the accuray was 95%.
 
 ## Data Visualization
