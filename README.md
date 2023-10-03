@@ -46,6 +46,17 @@ Finding that the linear regression model was overly rigid, we then applied a pol
 ### Neural Network
 In the Neural Network phase, we employed TensorFlow and Keras to construct a powerful neural network model. This model, with carefully tuned hyperparameters, delved into complex relationships within the sea level data. It learned intricate patterns and trends, enhancing our sea level predictions by capturing the nuances in environmental factors and sea level changes. This advanced model contributed significantly to refining our predictions and gaining deeper insights into coastal sea level rise.
 
+#### Data PRocessing
+- Target:
+  - MSL (ft)
+
+- Feature:
+  - Years
+ 
+### Compiling, Training and Evaluating the Model
+ - The model consit of one hidden layer with total for with 5 nodes run for 100 epochs was used to create the model and activation method *relu* . After compling the model it accuracy score 95%.
+ - The model at the beginning gave 100% accuracy but after using the *Standard Scaling* method the accuray was 95%.
+
 ## Data Visualization
 Data visualization played a crucial role in presenting our findings. We employed Matplotlib to create various visualizations, such as line plots, scatter plots, and bar charts, to effectively communicate our results and predictions.
 
