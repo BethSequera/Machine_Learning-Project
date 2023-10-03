@@ -44,7 +44,7 @@ Disappointed in the r-squared values for regression grouped by month, the data w
 Finding that the linear regression model was overly rigid, we then applied a polynomial regression model on the data grouped by year. This model succeeded in accurately visualizing the accelerated sea level rise for all cities. 
 
 ### Neural Network
-We implemented a neural network model...
+In the Neural Network phase, we employed TensorFlow and Keras to construct a powerful neural network model. This model, with carefully tuned hyperparameters, delved into complex relationships within the sea level data. It learned intricate patterns and trends, enhancing our sea level predictions by capturing the nuances in environmental factors and sea level changes. This advanced model contributed significantly to refining our predictions and gaining deeper insights into coastal sea level rise.
 
 ## Data Visualization
 Data visualization played a crucial role in presenting our findings. We employed Matplotlib to create various visualizations, such as line plots, scatter plots, and bar charts, to effectively communicate our results and predictions.
